@@ -1,0 +1,57 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#aabb"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/fname"
+        android:background="#AA607A7A"
+        android:hint="First name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/lname"
+        android:background="#AA607A7A"
+        android:hint="Last name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <EditText
+    android:layout_marginTop="30dp"
+    android:id="@+id/purpose"
+    android:background="#AA607A7A"
+    android:hint="pupose"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"/>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/meet"
+        android:background="#AA607A7A"
+        android:hint="whom to meet"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="add"
+        android:id="@+id/add"
+        android:textStyle="bold"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:background="#AAEDF0F0"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="back to menu"
+        android:id="@+id/menu"
+        android:textStyle="bold"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:background="#AAEDF0F0"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
