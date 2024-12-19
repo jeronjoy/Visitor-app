@@ -1,27 +1,28 @@
-<LinearLayout android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#aabb"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:text="view"
         android:id="@+id/view"
-        android:textStyle="bold"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="70dp"
-        android:textSize="20dp"
         android:background="#AAEDF0F0"
-        android:layout_width="100dp"
-        android:layout_height="50dp"/>
+        android:text="view"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
     <androidx.appcompat.widget.AppCompatButton
-        android:text="add"
         android:id="@+id/add"
-        android:textStyle="bold"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="70dp"
-        android:textSize="20dp"
         android:background="#AAEDF0F0"
-        android:layout_width="100dp"
-        android:layout_height="50dp"/>
+        android:text="add"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 </LinearLayout>
