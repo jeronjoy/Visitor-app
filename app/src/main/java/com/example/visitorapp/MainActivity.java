@@ -19,11 +19,19 @@ Button b1,b2;
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         b1=(Button) findViewById(R.id.add);
+        b2=(Button) findViewById(R.id.view);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(getApplicationContext(),addActivity.class);
                 startActivity(i);
+            }
+        });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(getApplicationContext(),viewActivity.class);
+                startActivity(a);
             }
         });
 
